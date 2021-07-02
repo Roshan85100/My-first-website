@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>MY FIRST WEBPAGE</title>
+    <style>
+        h1 {
+            font-size: 50px;
+            font-family: Axial;
+            text-shadow: 5px 11px 45px;
+            color: navy;
+        }
+        
+        h2 {
+            color: green;
+            font-size: 30px;
+            font-family: Axial;
+        }
+        
+        p,
+        footer {
+            font-size: 25px;
+            text-align: center;
+            font-family: fantasy;
+            border: 10px solid navy;
+            color: red;
+            font-weight: bold;
+        }
+        
+        body {
+            background-color: light-yellow;
+            font-size: 30px;
+        }
+        
+        a.hover {
+            color: red;
+        }
+        
+        h3 {
+            text-shadow: 5px 1px 15px;
+            color: white;
+        }
+        
+        #myclass2 {
+            width: 50px;
+            background-color: navy blue;
+        }
+        
+        #myvlog {
+            color: blue;
+            font-style: italic;
+            border-color: light yellow;
+            border-radius: 130px;
+            padding: 23px 56px 6px 78px;
+            flex-direction: column-reverse;
+        }
+        
+        .item.hover {
+            background-color: red;
+        }
+        
+        .mytopic {
+            color: green;
+            font-size: 46px;
+            border: 10px solid yellow;
+            padding: 23px 56px 6px 78px;
+        }
+        
+        .navbar li {
+            float: left;
+            list-style: none;
+            padding: 3px 3px;
+            margin: 3px 3px;
+        }
+        
+        .navbar ul {
+            overflow: auto;
+        }
+        
+        .navbar li a: {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .navbar li a:hover {
+            background-color: black;
+        }
+        
+        .navbar {
+            background-color: pink;
+            border: 4px solid black;
+            border-radius: 30px;
+        }
+        
+        .item {
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+            margin: 3px;
+            border: 2px solid black;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-rows: 1fr 1fr 4fr;
+            grid-auto-rows: 2fr;
+        }
+        
+        .container {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template: areas;
+            'navbar navbar navbar navbar' 'section section section aside' 'footer footer footer footer'
+        }
+        
+        .item {
+            background-color: yellow;
+            border: 3px solid black;
+        }
+        
+        #navbar {
+            grid-area: navbar;
+        }
+        
+        #section {
+            grid-area: section;
+        }
+        
+        #aside {
+            grid-area: aside;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My first web page </h1>
+    <h2>Made by Roshan</h2>
+    <p>In this web page you will find all information related to <strong>Roshan</strong>ok. <br>like my name.<em>my lodge</em>, education etc. this is all about <u>me</u></p>
+    <h2>first thing about me. </h2><a href="https://www.facebook.com" target="_blank">link to Google website</a><br><img src="https://source.unsplash.com/WLUHO9A_xik/>
+ <table border=" 1 " <tr>english math <table border="1 " <tr><tbody><tr><th>80</th><th>60</th></tr></tbody></table><h3>Registration form:</h3><form>Name : <input type="text " placeholder="enter your name ">last name : <input type="text
+        "><br>enter your password : <input type="password ">phone no : <input type="text "><br><input type="radio " name="gender ">male <input type="radio " name="gender ">female <input type="radio " name="gender ">other <br><span id="myclass "></span><button type="submit " value="submit
+        ">SUBMIT FORM</button><span id="myclass2 ">SUBMIT HERE</span></form><ultype="square "><li>electronic item</li><li>groceseeres</li><ol type="a "><li>iron</li><li>cookies</li></ol>write about your self : <br><textarea name=" mytext " cols="30 " row="10
+        "></textarea><div><label for="car ">car</label><select name="mycar " id="car "><option value="ind ">indica</option><option value="swf ">Swift</option></select></div></ultype="square "><p>hy,
+        how are you</p><p>I m really missing you!</p><span>hy,
+        how are you are you ok. i really missing you</span><span>lets talk<br></span><span id="myvlog ">Now,
+        lets start our blog!<br>My blog topic name is--:Which laptop 💻 is best for college student. </span><div class="mytopic ">If you are a beginner and searching for laptop than you are at best place <br>i will suggest you first look forward to your expetection,
+        what different things you want in your laptop💻 </div><footer>how was the artical.if you likeed pls subscribe. </footer><div class="hover ">submit </div><header><nav class="nav bar "><ul><li class="navbar "><ahref="# ">Home </ahref="#
+        "></li><li class="navbar "><ahref="# ">About </ahref="# "></li><li class="navbar "><ahref="# ">Services </ahref="# "></li><li class="navbar "><ahref="# ">Contact us </ahref="# "></li></ul></nav></header><div class="container "><div class="item
+        ">This is first item. </div><div class="item ">This is second item. </div><div class="item ">This is third item. </div><div class="item ">This is fourth item. </div></div><div class="container "><div id="navbar " class="item ">Home About us our services contact us </div><div id="section
+        ">Intoduce about yourself </div><div id="aside ">write an article on html
